@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "auth0",
+      "public": "dist/auth0",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

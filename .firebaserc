@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "auth0-a95c7": {
+      "hosting": {
+        "auth0": [
+          "auth0-a95c7"
+        ]
+      }
+    }
+  }
+}
